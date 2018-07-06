@@ -1,7 +1,7 @@
 #ifndef _ROOMMATE_HPP_
 #define _ROOMMATE_HPP_
 
-#include "Observer.hpp"
+#include "Observer.h"
 #include <string>
 
 class RoomMate: public Observer{
@@ -21,20 +21,6 @@ private:
     std::string _now;
 };
 
-std::string RoomMate::getName(){
-    return _name;
 
-}
-
-void RoomMate::Update(const std::string &msg){
-    std::cout<<"this is "<<_name<<std::endl;
-    if(msg=="dianming"){
-        std::cout<<"Action: "<<_action<<std::endl<<std::endl;
-
-    }else{
-        std::cout<<"Go on: "<<_now<<std::endl<<std::endl;
-    }
-
-}
 
 #endif

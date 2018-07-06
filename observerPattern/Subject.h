@@ -1,7 +1,7 @@
 #ifndef _SUBJECT_HPP_
 #define _SUBJECT_HPP_
 
-#include "Observer.hpp"
+#include "Observer.h"
 class Subject{
 public:
     virtual ~Subject(){};

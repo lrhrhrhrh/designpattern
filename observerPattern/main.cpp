@@ -1,6 +1,6 @@
 #include <iostream>
-#include "QQGroup.hpp"
-#include "RoomMate.hpp"
+#include "QQGroup.h"
+#include "RoomMate.h"
 
 using namespace std;
 
@@ -16,8 +16,8 @@ int main(){
     qqgroup->registerObserver(C);
     qqgroup->registerObserver(D);
 
-    qqgroup->notifyObservers("dianming");
-    qqgroup->removeObserver(B);
+    qqgroup->notifyObservers("点名");
+    // qqgroup->removeObserver(B);
     qqgroup->notifyObservers("meidianmian");
 
     cout<<"I love MaryLand chicken"<<endl;
