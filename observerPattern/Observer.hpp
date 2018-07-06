@@ -7,7 +7,7 @@
 
 class Observer{
 public:
-    virtual ~Observer(){};
+   
     virtual void Update(const std::string& msg) = 0;
     virtual std::string getName() = 0;
 protected:

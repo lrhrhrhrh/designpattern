@@ -6,7 +6,10 @@
 
 class RoomMate: public Observer{
 public:
-    RoomMate(std::string name, std::string now, std::string action): _name(name), _now(now), _action(action){
+    RoomMate(std::string name, std::string now, std::string action){
+        _name = name;
+        _action = action;
+        _now = now;
     }
 
     void Update(const std::string& msg);

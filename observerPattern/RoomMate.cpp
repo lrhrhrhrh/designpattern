@@ -7,7 +7,7 @@ std::string RoomMate::getName(){
 
 void RoomMate::Update(const std::string &msg){
     std::cout<<"this is "<<_name<<std::endl;
-    if(msg=="点名了"){
+    if(msg=="dianming"){
         std::cout<<"Action: "<<_action<<std::endl<<std::endl;
 
     }else{
